@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Korea AI Transformation - 인공지능 기술로 미래를 혁신하는 전문 기업">
+    <meta name="keywords" content="AI, 인공지능, 디지털 혁신, Korea AI Transformation, K-AX">
+    <meta name="author" content="Korea AI Transformation">
+    <title>(주)케이에이엑스 | Korea AI Transformation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
+</head>
+<body>
+    <!-- 사이드바 네비게이션 -->
+    <nav class="sidebar">
+        <div class="logo">
+            <h2>(주)케이에이엑스</h2>
+            <p>KOREA AI TRANSFORMATION</p>
+        </div>
+        
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="#" class="nav-link" data-section="home">HOME</a>
+            </li>
+            <li class="nav-item">
+                <span class="nav-title">COMPANY</span>
+                <ul class="sub-menu">
+                    <li><a href="#" class="nav-link" data-section="introduce">- Introduce</a></li>
+                    <li><a href="#" class="nav-link" data-section="history">- History</a></li>
+                    <li><a href="#" class="nav-link" data-section="news">- News & Notice</a></li>
+                    <li><a href="#" class="nav-link" data-section="recruit">- Recruit</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <span class="nav-title">BUSINESS</span>
+                <ul class="sub-menu">
+                    <li><a href="#" class="nav-link" data-section="ai-solution">- AI Solution</a></li>
+                    <li><a href="#" class="nav-link" data-section="consulting">- Consulting</a></li>
+                    <li><a href="#" class="nav-link" data-section="automation">- Automation</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <span class="nav-title">SOLUTION</span>
+                <ul class="sub-menu">
+                    <li><a href="#" class="nav-link" data-section="products">- Products</a></li>
+                    <li><a href="#" class="nav-link" data-section="services">- Services</a></li>
+                    <li><a href="#" class="nav-link" data-section="portfolio">- Portfolio</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <span class="nav-title">SUPPORT</span>
+                <ul class="sub-menu">
+                    <li><a href="#" class="nav-link" data-section="contact">- Contact Us</a></li>
+                    <li><a href="#" class="nav-link" data-section="faq">- FAQ</a></li>
+                    <li><a href="#" class="nav-link" data-section="download">- Download</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <span class="nav-title">PARTNER</span>
+                <ul class="sub-menu">
+                    <li><a href="#" class="nav-link" data-section="partners">- Partners</a></li>
+                    <li><a href="#" class="nav-link" data-section="investors">- Investors</a></li>
+                </ul>
+            </li>
+        </ul>
+        
+        <div class="contact-info">
+            <p>🌐 www.k-ax.com</p>
+            <p>AI TRANSFORMATION<br>& DIGITAL INNOVATION</p>
+            <div class="social-links">
+                <a href="#" aria-label="LinkedIn">💼</a>
+                <a href="#" aria-label="GitHub">⚡</a>
+                <a href="#" aria-label="Email">📧</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 메인 컨텐츠 -->
+    <main class="main-content">
+        <!-- 홈 섹션 -->
+        <section id="home" class="content-section active">
+            <div class="hero-section">
+                <div class="hero-content">
+                    <h1>(주)케이에이엑스</h1>
+                    <p class="hero-subtitle">🚀 인공지능 기술로 미래를 혁신합니다</p>
+                    <div class="hero-description">
+                        <p>(주)케이에이엑스는 최첨단 AI 기술을 통해 기업의 디지털 혁신을 선도하는 전문 기업입니다.</p>
+                        <p>우리는 고객의 비즈니스 성장과 효율성 향상을 위한 맞춤형 AI 솔루션을 제공합니다.</p>
+                    </div>
+                    <div class="cta-buttons">
+                        <button class="btn-primary" onclick="showSection('introduce')">회사 소개</button>
+                        <button class="btn-secondary" onclick="showSection('contact')">문의하기</button>
+                    </div>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <h3>50+</h3>
+                        <p>프로젝트 완성</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>25+</h3>
+                        <p>파트너 기업</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>99%</h3>
+                        <p>고객 만족도</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 서비스 미리보기 -->
+            <div class="services-preview">
+                <h2>🎯 주요 서비스</h2>
+                <div class="service-cards">
+                    <div class="service-card">
+                        <div class="service-icon">🤖</div>
+                        <h3>AI 솔루션</h3>
+                        <p>맞춤형 인공지능 솔루션으로 비즈니스 혁신을 실현합니다.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">💡</div>
+                        <h3>컨설팅</h3>
+                        <p>AI 도입 전략부터 실행까지 전문 컨설팅을 제공합니다.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">⚙️</div>
+                        <h3>자동화</h3>
+                        <p>업무 프로세스 자동화로 효율성을 극대화합니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 회사 소개 섹션 -->
+        <section id="introduce" class="content-section">
+            <div class="breadcrumb">
+                <span>HOME > COMPANY > Introduce</span>
+            </div>
+            <h2>회사 소개</h2>
+            <div class="company-intro">
+                <div class="intro-text">
+                    <h3>🌟 (주)케이에이엑스</h3>
+                    <p>(주)케이에이엑스는 인공지능 기술을 통한 디지털 혁신을 선도하는 전문 기업입니다.</p>
+                    
+                    <div class="company-values">
+                        <div class="value-item">
+                            <h4>🎯 Vision</h4>
+                            <p>AI 기술로 더 나은 미래를 만들어갑니다</p>
+                        </div>
+                        <div class="value-item">
+                            <h4>🚀 Mission</h4>
+                            <p>고객 중심의 혁신적인 AI 솔루션 제공</p>
+                        </div>
+                        <div class="value-item">
+                            <h4>💎 Values</h4>
+                            <p>혁신, 신뢰, 협력, 성장</p>
+                        </div>
+                    </div>
+
+                    <div class="company-strengths">
+                        <h4>🏆 핵심 강점</h4>
+                        <ul>
+                            <li>전문적인 AI 개발 팀</li>
+                            <li>다양한 산업 분야 경험</li>
+                            <li>맞춤형 솔루션 제공</li>
+                            <li>지속적인 기술 혁신</li>
+                            <li>체계적인 프로젝트 관리</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="intro-image">
+                    <div class="placeholder-image">
+                        <div class="image-content">
+                            <h3>🤖 AI Innovation</h3>
+                            <p>첨단 기술로 미래를 만들어갑니다</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 연혁 섹션 -->
+        <section id="history" class="content-section">
+            <div class="breadcrumb">
+                <span>HOME > COMPANY > History</span>
+            </div>
+            <h2>📅 회사 연혁</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="year">2025.08.19</div>
+                    <div class="content">
+                        <h4>🏢 K-AX 법인 설립</h4>
+                        <p>Korea AI Transformation 정식 법인 설립, AI 솔루션 사업 시작</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 뉴스 섹션 -->
+        <section id="news" class="content-section">
+            <div class="breadcrumb">
+                <span>HOME > COMPANY > News & Notice</span>
+            </div>
+            <h2>📰 뉴스 & 공지사항</h2>
+            <div class="news-list">
+                <!-- TypeScript에서 동적으로 생성됩니다 -->
+            </div>
+        </section>
+
+        <!-- 채용 섹션 -->
+        <section id="recruit" class="content-section">
+            <div class="breadcrumb">
+                <span>HOME > COMPANY > Recruit</span>
+            </div>
+            <h2>👥 채용 정보</h2>
+            <div class="recruit-content">
+                <div class="recruit-intro">
+                    <h3>🚀 K-AX와 함께 미래를 만들어가세요!</h3>
+                    <p>혁신적인 AI 기술로 세상을 바꾸고 싶은 인재를 찾습니다.</p>
+                </div>
+                
+                <div class="job-positions">
+                    <div class="job-card">
+                        <h4>AI 엔지니어</h4>
+                        <p>머신러닝 및 딥러닝 모델 개발</p>
+                        <div class="job-requirements">
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>PyTorch</span>
+                        </div>
+                    </div>
+                    <div class="job-card">
+                        <h4>데이터 사이언티스트</h4>
+                        <p>빅데이터 분석 및 인사이트 도출</p>
+                        <div class="job-requirements">
+                            <span>SQL</span>
+                            <span>R/Python</span>
+                            <span>Tableau</span>
+                        </div>
+                    </div>
+                    <div class="job-card">
+                        <h4>프론트엔드 개발자</h4>
+                        <p>AI 솔루션 사용자 인터페이스 개발</p>
+                        <div class="job-requirements">
+                            <span>React</span>
+                            <span>TypeScript</span>
+                            <span>Next.js</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- AI 솔루션 섹션 -->
+        <section id="ai-solution" class="content-section">
+            <div class="breadcrumb">
+                <span>HOME > BUSINESS > AI Solution</span>
+            </div>
+            <h2>🤖 AI 솔루션</h2>
+            <div class="solution-grid">
+                <div class="solution-item">
+                    <div class="solution-icon">🧠</div>
+                    <h3>자연어 처리 (NLP)</h3>
+                    <p>텍스트 분석, 번역, 챗봇 등 언어 기반 AI 솔루션</p>
+                </div>
+                <div class="solution-item">
+                    <div class="solution-icon">👁️</div>
+                    <h3>컴퓨터 비전</h3>
+                    <p>이미지 인식, 객체 탐지, 품질 검사 자동화</p>
+                </div>
+                <div class="solution-item">
+                    <div class="solution-icon">📊</div>
+                    <h3>예측 분석</h3>
+                    <p>데이터 기반 미래 트렌드 예측 및 의사결정 지원</p>
+                </div>
+                <div class="solution-item">
+                    <div class="solution-icon">🔧</div>
+                    <h3>맞춤형 AI</h3>
+                    <p>기업별 특화된 AI 모델 개발 및 구축</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 컨설팅 섹션 -->
+        <section id="consulting" class="content-section">
+            <div class="breadcrumb">
+                <span>HOME > BUSINESS > Consulting</span>
+            </div>
+            <h2>💡 AI 컨설팅</h2>
+            <div class="consulting-process">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <h3>현황 분석</h3>
+                    <p>기업의 현재 상황과 AI 도입 가능성 분석</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <h3>전략 수립</h3>
+                    <p>비즈니스 목표에 맞는 AI 도입 전략 설계</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <h3>구현 계획</h3>
+                    <p>단계별 실행 계획 및 로드맵 제시</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <h3>사후 지원</h3>
+                    <p>구축 후 지속적인 모니터링 및 최적화</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 자동화 섹션 -->
+        <section id="automation" class="content-section">
+            <div class="breadcrumb">
+                <span>HOME > BUSINESS > Automation</span>
+            </div>
+            <h2>⚙️ 업무 자동화</h2>
+            <div class="automation-benefits">
+                <div class="benefit-card">
+                    <h3>📈 효율성 향상</h3>
+                    <p>반복적인 업무를 자동화하여 생산성을 극대화합니다.</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>💰 비용 절감</h3>
+                    <p>인력 및 시간 비용을 절약하여 ROI를 향상시킵니다.</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>🎯 정확성 향상</h3>
+                    <p>사람의 실수를 줄이고 일관된 품질을 보장합니다.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 제품 섹션 -->
+        <section id="products" class="content-section">
+            <div class="breadcrumb">
+                <span>HOME > SOLUTION > Products</span>
+            </div>
+            <h2>📦 제품</h2>
+            <p>혁신적인 AI 제품들을 소개합니다.</p>
+            <div class="products-coming-soon">
+                <h3>🚧 제품 출시 예정</h3>
+                <p>곧 출시될 혁신적인 AI 제품들을 기대해 주세요!</p>
+            </div>
+        </section>
+
+        <!-- 서비스 섹션 -->
+        <section id="services" class="content-section">
+            <div class="breadcrumb">
+                <span>HOME > SOLUTION > Services</span>
+            </div>
+            <h2>🛠️ 서비스</h2>
+            <p>고객 맞춤형 AI 서비스를 제공합니다.</p>
+            <div class="service-types">
+                <div class="service-type">
+                    <h4>🔄 클라우드 AI 서비스</h4>
+                    <p>클라우드 기반 AI 모델 서비스</p>
+                </div>
+                <div class="service-type">
+                    <h4>🏢 온프레미스 솔루션</h4>
+                    <p>기업 내부 시스템 구축</p>
+                </div>
+                <div class="service-type">
+                    <h4>🔧 유지보수 서비스</h4>
+                    <p>지속적인 시스템 관리 및 최적화</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 포트폴리오 섹션 -->
+        <section id="portfolio" class="content-section">
+            <div class="breadcrumb">
+                <span>HOME > SOLUTION > Portfolio</span>
+            </div>
+            <h2>💼 포트폴리오</h2>
+            <div class="portfolio-preview">
+                <h3>🏗️ 포트폴리오 준비 중</h3>
+                <p>완성된 프로젝트들을 곧 공개할 예정입니다.</p>
+            </div>
+        </section>
+
+        <!-- 연락처 섹션 -->
+        <section id="contact" class="content-section">
+            <div class="breadcrumb">
+                <span>HOME > SUPPORT > Contact Us</span>
+            </div>
+            <h2>📞 문의하기</h2>
+            <div class="contact-container">
+                <div class="contact-info-detail">
+                    <h3>🏢 Korea AI Transformation</h3>
+                    <div class="contact-details">
+                        <div class="info-item">
+                            <div class="info-icon">📍</div>
+                            <div>
+                                <strong>주소:</strong><br>
+                                서울특별시 강남구 테헤란로 123길 45
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">📞</div>
+                            <div>
+                                <strong>전화:</strong> 02-1234-5678
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">📧</div>
+                            <div>
+                                <strong>이메일:</strong> info@k-ax.com
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">🕐</div>
+                            <div>
+                                <strong>운영시간:</strong> 평일 09:00 - 18:00
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">🏢</div>
+                            <div>
+                                <strong>설립:</strong> 2024.08.15<br>
+                                <strong>법인등록번호:</strong> 123-45-67890
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>💬 문의 양식</h3>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="이름 *" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="이메일 *" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="연락처">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="제목 *" required>
+                        </div>
+                        <div class="form-group">
+                            <select>
+                                <option value="">문의 유형 선택</option>
+                                <option value="ai-solution">AI 솔루션</option>
+                                <option value="consulting">컨설팅</option>
+                                <option value="automation">자동화</option>
+                                <option value="partnership">파트너십</option>
+                                <option value="other">기타</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="문의 내용 *" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">문의 보내기</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ 섹션 -->
+        <section id="faq" class="content-section">
+            <div class="breadcrumb">
+                <span>HOME > SUPPORT > FAQ</span>
+            </div>
+            <h2>❓ 자주 묻는 질문</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <h3>Q: AI 솔루션 도입 기간은 얼마나 걸리나요?</h3>
+                    <p>A: 프로젝트 규모에 따라 2주~6개월 정도 소요됩니다. 상담을 통해 정확한 일정을 안내드립니다.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Q: 소규모 기업도 AI 솔루션을 도입할 수 있나요?</h3>
+                    <p>A: 네, 기업 규모에 맞는 맞춤형 솔루션을 제공합니다. 예산과 요구사항에 따른 최적의 방안을 제시해드립니다.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Q: 기술 지원은 어떻게 받을 수 있나요?</h3>
+                    <p>A: 이메일, 전화, 원격 지원 등 다양한 방식으로 기술 지원을 제공합니다. 계약에 따라 24시간 지원도 가능합니다.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 다운로드 섹션 -->
+        <section id="download" class="content-section">
+            <div class="breadcrumb">
+                <span>HOME > SUPPORT > Download</span>
+            </div>
+            <h2>📥 다운로드</h2>
+            <div class="download-section">
+                <h3>📋 회사 소개서</h3>
+                <p>K-AX의 상세한 정보가 담긴 회사 소개서를 다운로드하세요.</p>
+                <button class="btn-download" onclick="alert('준비 중입니다.')">
+                    📄 회사소개서.pdf 다운로드
+                </button>
+            </div>
+        </section>
+
+        <!-- 파트너 섹션 -->
+        <section id="partners" class="content-section">
+            <div class="breadcrumb">
+                <span>HOME > PARTNER > Partners</span>
+            </div>
+            <h2>🤝 파트너</h2>
+            <div class="partners-content">
+                <h3>🌟 함께 성장하는 파트너</h3>
+                <p>K-AX와 함께 AI 혁신을 이끌어갈 파트너를 모집합니다.</p>
+                <div class="partner-benefits">
+                    <div class="benefit-item">✨ 기술 협력 및 공동 개발</div>
+                    <div class="benefit-item">📈 비즈니스 기회 확장</div>
+                    <div class="benefit-item">🎓 기술 교육 및 지원</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 투자자 섹션 -->
+        <section id="investors" class="content-section">
+            <div class="breadcrumb">
+                <span>HOME > PARTNER > Investors</span>
+            </div>
+            <h2>💰 투자자 정보</h2>
+            <div class="investors-content">
+                <h3>🚀 미래 성장 동참</h3>
+                <p>K-AX의 성장 스토리에 함께하실 투자자를 모집합니다.</p>
+                <div class="investment-highlights">
+                    <div class="highlight-item">
+                        <h4>📊 시장 기회</h4>
+                        <p>급성장하는 AI 시장에서의 선도적 위치</p>
+                    </div>
+                    <div class="highlight-item">
+                        <h4>💡 기술 우위</h4>
+                        <p>차별화된 AI 기술과 솔루션</p>
+                    </div>
+                    <div class="highlight-item">
+                        <h4>👥 전문팀</h4>
+                        <p>풍부한 경험과 전문성을 갖춘 팀</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="dist/script.js"></script>
+</body>
+</html>

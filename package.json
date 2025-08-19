@@ -1,0 +1,42 @@
+{
+  "name": "k-ax-website",
+  "version": "1.0.0",
+  "description": "Korea AI Transformation (K-AX) Official Website",
+  "main": "index.html",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist/*",
+    "predeploy": "npm run clean && npm run build",
+    "deploy": "gh-pages -d .",
+    "serve": "python -m http.server 8000",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint src --ext .ts"
+  },
+  "keywords": [
+    "AI",
+    "artificial-intelligence",
+    "korea",
+    "transformation",
+    "website",
+    "typescript"
+  ],
+  "author": "Korea AI Transformation",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "gh-pages": "^6.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.4",
+    "@typescript-eslint/parser": "^6.7.4",
+    "eslint": "^8.50.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/k-ax-website.git"
+  },
+  "homepage": "https://yourusername.github.io/k-ax-website",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
